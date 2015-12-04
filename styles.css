@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ####### END STYLE RESET ######## */
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: inline;
+}
+
+.bigR {
+	background-color: red;
+	color: white;
+    height: 100vh;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.bigR h1 {
+	font-family: 'Cinzel Decorative', sans-serif;
+	width: 1em;
+	font-size: 10em;
+	font-weight: 900;
+	border: 30px solid white;
+	border-radius: 50%;
+	margin: 40vh auto;
+}
+
+header {
+	background-color: #4d88ff;
+	display: inline;
+	width: 50%;
+	height: 50vh;
+	float: right;
+	text-align: center;
+}
+
+header h1 {
+	color: white;
+	font-size: 3em;
+	font-weight: 600;
+	padding: 20vh 0;
+}
+
+.tri {
+	height: 50vh;
+	width: 16.4%;
+	display: inline-block;
+	text-align: center;
+}
+
+.tri h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 25vh;
+}
+.left {
+	background-color: #e5e600;
+	color: #4c0099;
+}
+
+.center {
+	background-color: #99e699;
+	color: #007399;
+}
+
+.right {
+	background-color: #9999ff;
+}
