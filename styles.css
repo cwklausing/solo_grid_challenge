@@ -52,8 +52,9 @@ body {
 }
 
 .bigR {
-	background-color: red;
-	color: white;
+	background-image: url('rando_background.jpg');
+	background-position: center;
+	color: whitesmoke;
     height: 100vh;
     width: 50%;
     display: inline-block;
